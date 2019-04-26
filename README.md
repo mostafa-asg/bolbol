@@ -6,3 +6,39 @@ The best way to learn new words, is by using them in the sentences and of course
 It is very simple. All you need is a text file to add your sentences to it.
 
 ### The text file structure
+Between each sentence must exists two `\n`
+```
+sentence 1\n
+\n
+sentence 2\n
+\n
+sentence N\n
+\n
+```
+### The sentence structure
+The word that you want to learn, should be between two **stars** like this:
+```
+I *go* to school.
+```
+When you run the application the result should be like this:
+![Sample 1](https://github.com/mostafa-asg/bolbol/blob/master/images/1.png)  
+You can star as many word as you want. In this case **bolbol** chooses one of them randomly:
+```
+Children must be *taught* to *distinguish* between right and wrong.
+```
+Result:
+![Sample 2](https://github.com/mostafa-asg/bolbol/blob/master/images/2.png)
+
+## How to build
+If you do not have [golang](https://golang.org) please install it. Then:
+```
+git clone https://github.com/mostafa-asg/bolbol/
+cd bolbol/
+go get github.com/logrusorgru/aurora
+go build
+```
+
+## How to run
+```
+./bolbol <YOUR_TEXT_FILE_PATH>
+```

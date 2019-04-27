@@ -29,7 +29,8 @@ You can star as many word as you want. In this case **bolbol** chooses one of th
 Children must be *taught* to *distinguish* between right and wrong.
 ```
 Result:  
-![Sample 2](https://github.com/mostafa-asg/bolbol/blob/master/images/2.png)
+![Sample 2](https://github.com/mostafa-asg/bolbol/blob/master/images/2.png)  
+In the [languages](https://github.com/mostafa-asg/bolbol/tree/master/languages) folder, you can find these text files.
 
 ## How to build
 If you do not have [golang](https://golang.org) please install it. Then:

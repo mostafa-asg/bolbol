@@ -12,8 +12,10 @@ sentence 1\n
 \n
 sentence 2\n
 \n
-sentence N\n
-\n
+.
+.
+.
+sentence N
 ```
 ### The sentence structure
 The word that you want to learn, should be between two **stars** like this:

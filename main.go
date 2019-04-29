@@ -40,6 +40,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	line := 0
+	help := 0
 	for len(sentences) > 0 {
 
 		// remove the \n from the last item
@@ -52,6 +53,7 @@ func main() {
 
 		line++
 		fmt.Println(Bold(Blue(strconv.Itoa(line)+".")), q.question)
+		help = 0
 
 		for {
 			fmt.Print(Blue("answer: "))
@@ -60,6 +62,17 @@ func main() {
 			fmt.Scanln(&input)
 			if q.answer == input {
 				fmt.Println(Green("correct ✔\n"))
+				break
+			} else if input == ":h" || input == ":H" {
+				help = help + 1
+				if len(q.answer) == help {
+					fmt.Println("The answer is: ", Green(q.answer))
+					break
+				} else {
+					fmt.Println("Answer starts with: ", Red(q.answer[0:help]))
+				}
+			} else if input == ":s" || input == ":S" {
+				fmt.Println("The answer is: ", Green(q.answer))
 				break
 			} else {
 				fmt.Println(Red("wrong ✗\n"))

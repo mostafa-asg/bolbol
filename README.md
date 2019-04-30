@@ -45,6 +45,10 @@ go build
 ```
 ./bolbol <YOUR_TEXT_FILE_PATH>
 ```
+## funktionality
+* If you want help, and want to know the first letter (and more), type **:h**
+* If you want to see the answer type **:s**
+
 ## About repository name
 In [persian language](https://en.wikipedia.org/wiki/Persian_language), **bolbol** means **nightingale** and there is an idiom, when someone speeks a language very well and fluently:
 ```

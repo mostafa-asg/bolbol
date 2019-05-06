@@ -39,6 +39,7 @@ func main() {
 
 	rand.Seed(time.Now().UnixNano())
 
+	startTime := time.Now()
 	line := 0
 	help := 0
 	for len(sentences) > 0 {
@@ -83,6 +84,7 @@ func main() {
 		sentences = remove(i, sentences)
 	}
 
+	fmt.Printf("Time spent: %v\n", time.Since(startTime))
 	println("Finish :)")
 }
 

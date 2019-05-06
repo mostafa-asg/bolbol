@@ -42,6 +42,10 @@ func main() {
 	startTime := time.Now()
 	line := 0
 	help := 0
+	mistakes := 0
+	doNotKnow := 0
+	totalQuestions := len(sentences)
+
 	for len(sentences) > 0 {
 
 		// remove the \n from the last item
@@ -67,15 +71,18 @@ func main() {
 			} else if input == ":h" || input == ":H" {
 				help = help + 1
 				if len(q.answer) == help {
+					doNotKnow++
 					fmt.Println("The answer is: ", Green(q.answer))
 					break
 				} else {
 					fmt.Println("Answer starts with: ", Red(q.answer[0:help]))
 				}
 			} else if input == ":s" || input == ":S" {
+				doNotKnow++
 				fmt.Println("The answer is: ", Green(q.answer))
 				break
 			} else {
+				mistakes++
 				fmt.Println(Red("wrong ✗\n"))
 			}
 		}
@@ -84,7 +91,21 @@ func main() {
 		sentences = remove(i, sentences)
 	}
 
-	fmt.Printf("Time spent: %v\n", time.Since(startTime))
+	fmt.Printf("Total questions: %d\n", Green(totalQuestions))
+
+	if mistakes > 0 {
+		fmt.Printf("mistakes: %d\n", Red(mistakes))
+	} else {
+		fmt.Printf("mistakes: %s\n", Green("nothing"))
+	}
+
+	if doNotKnow > 0 {
+		fmt.Printf("Do not know: %d\n", Red(doNotKnow))
+	} else {
+		fmt.Printf("Do not know: %s\n", Green("nothing"))
+	}
+
+	fmt.Printf("Time spent: %v\n", Blue(time.Since(startTime)))
 	println("Finish :)")
 }
 

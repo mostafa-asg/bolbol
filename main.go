@@ -143,11 +143,34 @@ func removeStars(sentence string) questionItem {
 
 	q := strings.Replace(sentence, "*"+word+"*", "__________", -1)
 	q = strings.Replace(q, "*", "", -1)
+	q = strings.Replace(q, "|:s|", "("+scramble(word)+")", -1)
 
 	return questionItem{
 		question: q,
 		answer:   word,
 	}
+}
+
+func scramble(word string) string {
+	var s = len(word)
+	var newWord = make([]byte, s)
+
+	// First copy all chars in their right position
+	for i := 0; i < s; i++ {
+		newWord[i] = word[i]
+	}
+
+	// Swap 2 chars randomly
+	for i := 1; i <= 25; i++ {
+		var a = rand.Int() % s
+		var b = rand.Int() % s
+
+		var tmp = newWord[a]
+		newWord[a] = newWord[b]
+		newWord[b] = tmp
+	}
+
+	return string(newWord)
 }
 
 func remove(i int, items []string) []string {

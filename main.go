@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"io/ioutil"
 	"math/rand"
@@ -45,6 +46,7 @@ func main() {
 	mistakes := 0
 	doNotKnow := 0
 	totalQuestions := len(sentences)
+	inputReader := bufio.NewReader(os.Stdin)
 
 	for len(sentences) > 0 {
 
@@ -64,8 +66,12 @@ func main() {
 			fmt.Print(Blue("answer: "))
 
 			var input string
-			fmt.Scanln(&input)
-			if q.answer == input {
+			input, _ = inputReader.ReadString('\n')
+			if len(input) > 0 {
+				input = input[0 : len(input)-1] // remove the `\n`
+			}
+
+			if strings.Compare(q.answer, input) == 0 {
 				fmt.Println(Green("correct ✔\n"))
 				break
 			} else if input == ":h" || input == ":H" {

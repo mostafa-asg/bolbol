@@ -71,7 +71,7 @@ Sie hatte mit ihrem Projekt leider keinen *Erfolg*. (success)
 
 Er ist *gelernter* Journalist. (skilled, qualified)
 
-Er ist Wahnsinn, das wir so viel Dinge auf den Müll *werfen*.
+Es ist Wahnsinn, das wir so viel Dinge auf den Müll *werfen*.
 
 Sie hat den Ball zwanzig Meter weit *geworfen*.
 
@@ -83,7 +83,7 @@ backpacker? *der Rucksack*
 
 Die Musikerin ist *vielseitig* und kann verschiedene Instrumente spielen. (versatile)
 
-mayer? (man) *der bürgermeister*
+mayer? (man) *der Bürgermeister*
 
 Er ist ein erfolgreicher *Unternehmer*. (entrepreneur)
 
@@ -94,3 +94,17 @@ Ich habe mir *gelobt*, das Rauchen aufzugeben.
 *Die wirtschaftliche Lage* des Landes hat sich verbessert. (The economic situation)
 
 Ich habe alle meine Möbel im selben Geschäft gekauft, damit sie *zussamenpassen*. (match)
+
+Haben sie eine Idee? Wir sind für jede *Anregung* dankbar.
+
+Leider kann ich Ihre Bitte nicht *erfüllen*. (to be fulfilled)
+
+Unsere kinder gehen nie *freiwillig* ins Bett. (voluntary)
+
+Ich möchte euch nicht *stören*. (to bother, to disturb)
+
+*Stört* es dich, wenn ich rauchen? (to bother, to disturb)
+
+Das Hochwasser *verursachte* eine Katastrophe. (to cause)
+
+*Die Ursache* des Fehlers wurde gefunden. (reason, cause)

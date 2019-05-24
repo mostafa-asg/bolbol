@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"math/rand"
 	"os"
 	"strconv"
@@ -11,6 +12,7 @@ import (
 	"time"
 
 	. "github.com/logrusorgru/aurora"
+	"github.com/mostafa-asg/bolbol/db"
 )
 
 type questionItem struct {
@@ -44,7 +46,7 @@ func main() {
 	line := 0
 	help := 0
 	mistakes := 0
-	doNotKnow := 0
+	notKnow := 0
 	totalQuestions := len(sentences)
 	inputReader := bufio.NewReader(os.Stdin)
 
@@ -77,14 +79,14 @@ func main() {
 			} else if input == ":h" || input == ":H" {
 				help = help + 1
 				if len(q.answer) == help {
-					doNotKnow++
+					notKnow++
 					fmt.Println("The answer is: ", Green(q.answer))
 					break
 				} else {
 					fmt.Println("Answer starts with: ", Red(q.answer[0:help]))
 				}
 			} else if input == ":s" || input == ":S" {
-				doNotKnow++
+				notKnow++
 				fmt.Println("The answer is: ", Green(q.answer))
 				break
 			} else {
@@ -105,14 +107,21 @@ func main() {
 		fmt.Printf("mistakes: %s\n", Green("nothing"))
 	}
 
-	if doNotKnow > 0 {
-		fmt.Printf("Do not know: %d\n", Red(doNotKnow))
+	if notKnow > 0 {
+		fmt.Printf("Do not know: %d\n", Red(notKnow))
 	} else {
 		fmt.Printf("Do not know: %s\n", Green("nothing"))
 	}
 
 	fmt.Printf("Time spent: %v\n", Blue(time.Since(startTime)))
 	println("Finish :)")
+
+	fileInfo, _ := os.Stat(filename)
+	seconds := time.Now().Unix() - startTime.Unix()
+	err = db.InsertToDB(fileInfo.Name(), mistakes, notKnow, seconds)
+	if err != nil {
+		log.Println(err)
+	}
 }
 
 // Find all words that mark with star

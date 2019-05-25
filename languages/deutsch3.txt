@@ -25,7 +25,7 @@ Kinder, macht nicht so viel *Lärm*. (noise)
 
 Ich habe große *Vertrauen* in Ihre Kompetenz. (trust)
 
-Zwar ist es etwas komich, aber man kann ihm *vertrauen*. (trust)
+Zwar ist er etwas komich, aber man kann ihm *vertrauen*. (trust)
 
 Ich kann sein *Verhalten* nicht verstehen. (behaviour)
 
@@ -71,7 +71,7 @@ Sie hatte mit ihrem Projekt leider keinen *Erfolg*. (success)
 
 Er ist *gelernter* Journalist. (skilled, qualified)
 
-Es ist Wahnsinn, das wir so viel Dinge auf den Müll *werfen*.
+Es ist Wahnsinn, dass wir so viele Dinge auf den Müll *werfen*.
 
 Sie hat den Ball zwanzig Meter weit *geworfen*.
 
@@ -93,7 +93,7 @@ Ich habe mir *gelobt*, das Rauchen aufzugeben.
 
 *Die wirtschaftliche Lage* des Landes hat sich verbessert. (The economic situation)
 
-Ich habe alle meine Möbel im selben Geschäft gekauft, damit sie *zussamenpassen*. (match)
+Ich habe alle meine Möbel im selben Geschäft gekauft, damit sie *zusamenpassen*. (match)
 
 Haben sie eine Idee? Wir sind für jede *Anregung* dankbar.
 

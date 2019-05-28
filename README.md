@@ -43,7 +43,7 @@ In the [languages](https://github.com/mostafa-asg/bolbol/tree/master/languages) 
 ## How to build
 If you do not have [golang](https://golang.org) please install it. Then:
 ```
-go ger github.com/mostafa-asg/bolbol
+go get github.com/mostafa-asg/bolbol
 cd $GO_PATH/bolbol/
 go build
 ```

@@ -19,3 +19,9 @@ Das Bundesministerium hat dazu eine Umfrage unter Jugendlichen und Erwachsenen g
 *Vorbeugen* ist besser als Heilen.
 
 Ein gesunder Lebensstil beugt *häufig* Krankheiten vor. (in many cases)
+
+Schlafmangel ist ein *häufiger* Auslöser für Kopfschmerzen. (common, frequent)
+
+Ich *empfehle* dieses Buch. Es ist sehr gut. |:s| (recommend)
+
+Die *empfohlene* Menge sind 300g bis 600g pro Woche. (recommended)

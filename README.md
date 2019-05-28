@@ -30,14 +30,21 @@ Children must be *taught* to *distinguish* between right and wrong.
 ```
 Result:  
 ![Sample 2](https://github.com/mostafa-asg/bolbol/blob/master/images/2.png)  
+Sometimes for a word, there is more than one correct answer. In this cases you can use **|:s|**, which means scramble. For instance:
+```
+That was a really *awful* exam. |:s|
+```
+Which converts to:
+```
+That was a really _______ exam. (lwfau)
+```
 In the [languages](https://github.com/mostafa-asg/bolbol/tree/master/languages) folder, you can find these text files.
 
 ## How to build
 If you do not have [golang](https://golang.org) please install it. Then:
 ```
-git clone https://github.com/mostafa-asg/bolbol/
-cd bolbol/
-go get github.com/logrusorgru/aurora
+go ger github.com/mostafa-asg/bolbol
+cd $GO_PATH/bolbol/
 go build
 ```
 

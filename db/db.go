@@ -22,9 +22,9 @@ func InsertToDB(filename string, mistakes int, notKnow int, timeSpent int64) err
 	}
 
 	sqlStmt := "INSERT INTO REPORTS(date, filename, mistakes, not_know, time_spent) " +
-		"VALUES('%s', '%s', %d, %d, %d);"
+		"VALUES(date(), '%s', %d, %d, %d);"
 
-	_, err = db.Exec(fmt.Sprintf(sqlStmt, now(), filename, mistakes, notKnow, timeSpent))
+	_, err = db.Exec(fmt.Sprintf(sqlStmt, filename, mistakes, notKnow, timeSpent))
 	if err != nil {
 		return err
 	}

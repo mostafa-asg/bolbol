@@ -25,6 +25,10 @@ type place struct {
 	end   int
 }
 
+func printQuestion(current int, total int, question string) {
+	fmt.Println(Bold(Blue(strconv.Itoa(current)+"/"+strconv.Itoa(total)+".")), question)
+}
+
 func main() {
 	if len(os.Args) <= 1 {
 		fmt.Println("Please specify a file")
@@ -43,7 +47,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	startTime := time.Now()
-	line := 0
+	question := 0
 	help := 0
 	mistakes := 0
 	notKnow := 0
@@ -60,8 +64,8 @@ func main() {
 
 		q := removeStars(sentences[i])
 
-		line++
-		fmt.Println(Bold(Blue(strconv.Itoa(line)+".")), q.question)
+		question++
+		printQuestion(question, totalQuestions, q.question)
 		help = 0
 
 		for {

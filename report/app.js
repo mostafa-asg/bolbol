@@ -22,7 +22,9 @@ app.get("/", (req, res) => {
                                   T1.date <= date('now') AND date >= date('now','-7 day')) as weekCount, 
             (select count(*) from reports as TW where 
                                   TW.filename=T1.filename AND 
-                                  T1.date <= date('now') AND date >= date('now','-30 day')) as monthCount 
+                                  T1.date <= date('now') AND date >= date('now','-30 day')) as monthCount,
+            (select count(*) from reports as T0 where 
+                                  T0.filename=T1.filename) as totalCount
             from reports as T1;
       `;
 
@@ -34,7 +36,8 @@ app.get("/", (req, res) => {
               data.push({
                 filename: row.filename,
                 weekCount: row.weekCount,
-                monthCount: row.monthCount
+                monthCount: row.monthCount,
+                totalCount: row.totalCount
               });
             });
 

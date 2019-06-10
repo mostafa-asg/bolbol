@@ -19,6 +19,7 @@
             <th scope="col">Filename</th>
             <th scope="col">Review<br />(last 7 days)</th>
             <th scope="col">Review<br />(last 30 days)</th>
+            <th scope="col">Review<br />(total)</th>
           </tr>
         </thead>
         <tbody>
@@ -32,6 +33,9 @@
             </td>
             <td>
               <%= data[i].monthCount %>
+            </td>
+            <td>
+              <%= data[i].totalCount %>
             </td>
           </tr>
           <% } %>

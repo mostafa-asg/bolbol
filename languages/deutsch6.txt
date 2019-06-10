@@ -28,7 +28,7 @@ Stimmt es, dass deutsches Bier gut *schmeckt*? (taste)
 
 Stimmt es, dass dein Vater *in Rente* gegangen ist? (retired)
 
-Stimmt es, dass er eine *Stell* gefunden hat? |:s| (Job)
+Stimmt es, dass er eine *Stelle* gefunden hat? |:s| (Job)
 
 Ich weiß, dass Mirko *finanzielle* Probleme hat. (financial)
 
@@ -38,7 +38,7 @@ Ich *bezweifle*, dass das funktioniert. (doubt)
 
 Danke, dass Sie *angerufen* haben. (Thanks for calling)
 
-Er hat mir gesagt, dass er seine Meinung *geänder* hat. (changed)
+Er hat mir gesagt, dass er seine Meinung *geändert* hat. (changed)
 
 Sie hat *mir* erzählt, dass sie *auf* *der* Suche nach *einer* neuen Stelle ist. (She told me that she is in search of a new job)
 

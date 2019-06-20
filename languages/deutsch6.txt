@@ -4,7 +4,7 @@ Die nachfolgenden Seiten geben einen *Überblick* zu den Plänen. (overview)
 
 Eins, zwei und drei sind *sequenzielle* Nummern. (sequential)
 
-*Die Umsetzung* der neun Strategie wird ein paar Wochen dauern. (implementation)
+*Die Umsetzung* der neuen Strategie wird ein paar Wochen dauern. (implementation)
 
 Der Lehrer gab den Studenten *Anweisungen* für die Prüfung. (instructions)
 

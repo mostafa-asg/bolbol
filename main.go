@@ -41,6 +41,7 @@ func main() {
 		println("Error", err.Error())
 		return
 	}
+	fileInfo, _ := os.Stat(filename)
 
 	sentences := strings.Split(string(content), "\n\n")
 
@@ -53,6 +54,14 @@ func main() {
 	notKnow := 0
 	totalQuestions := len(sentences)
 	inputReader := bufio.NewReader(os.Stdin)
+	answered := false
+
+	dbConn, err := db.Open()
+	if err != nil {
+		fmt.Println("Cannot open database", err.Error())
+	} else {
+		defer db.Close(dbConn)
+	}
 
 	for len(sentences) > 0 {
 
@@ -79,6 +88,7 @@ func main() {
 
 			if strings.Compare(q.answer, input) == 0 {
 				fmt.Println(Green("correct ✔\n"))
+				answered = true
 				break
 			} else if input == ":h" || input == ":H" {
 				help = help + 1
@@ -92,11 +102,18 @@ func main() {
 			} else if input == ":s" || input == ":S" {
 				notKnow++
 				fmt.Println("The answer is: ", Green(q.answer))
+				answered = false
 				break
 			} else {
 				mistakes++
 				fmt.Println(Red("wrong ✗\n"))
 			}
+		}
+
+		if dbConn != nil {
+			go func(word string, answered bool) {
+				db.InsertWordReport(dbConn, word, fileInfo.Name(), answered)
+			}(q.answer, answered)
 		}
 
 		// remove this sentence, so next time it won't show
@@ -120,12 +137,23 @@ func main() {
 	fmt.Printf("Time spent: %v\n", Blue(time.Since(startTime)))
 	println("Finish :)")
 
-	fileInfo, _ := os.Stat(filename)
 	seconds := time.Now().Unix() - startTime.Unix()
-	err = db.InsertToDB(fileInfo.Name(), mistakes, notKnow, seconds)
-	if err != nil {
-		log.Println(err)
+
+	if dbConn != nil {
+		err = db.InsertFileReport(dbConn, fileInfo.Name(), mistakes, notKnow, seconds)
+		if err != nil {
+			log.Println(err)
+		}
 	}
+}
+
+func contains(arr []string, key string) bool {
+	for _, item := range arr {
+		if item == key {
+			return true
+		}
+	}
+	return false
 }
 
 // Find all words that mark with star

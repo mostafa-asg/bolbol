@@ -20,6 +20,7 @@
             <th scope="col">Review<br />(last 7 days)</th>
             <th scope="col">Review<br />(last 30 days)</th>
             <th scope="col">Review<br />(total)</th>
+            <th scope="col">Words report</th>
           </tr>
         </thead>
         <tbody>
@@ -36,6 +37,9 @@
             </td>
             <td>
               <%= data[i].totalCount %>
+            </td>
+            <td>
+              <a href="<%= '/report/' + data[i].filename + '/words' %>">View</a>
             </td>
           </tr>
           <% } %>

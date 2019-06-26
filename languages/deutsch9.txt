@@ -34,7 +34,7 @@ Sie können die Höhe des Stuhls individuell *anpassen*. (adjust)
 
 Wir tun alles, um die *Bedürfnisse* unserer Kunden zu befriedigen. |:s| (need)
 
-Wir können unseren Service *den Bedürfnissen* unserer Kunden anpassen. |:s| (needs)
+Wir können unseren Service *den Bedürfnissen* unserer Kunden anpassen. |:s| (We can customize our service to our clients' needs.)
 
 User können die Grundeinstellungen der Software *anpassen*. (modify)
 

@@ -10,7 +10,7 @@ Gut gemacht, das war eine *kluge* Entscheidung. (wise)
 
 Es ist nicht unbedingt *klug* zurückzuschlagen, wenn man sich verletzt fühlt. (It is not necessarily wise to retaliate when you feel hurt)
 
-Als Lehrer ist es wichtig, ein Vorbild für andere zu sein. (As a teacher it is important to be an example to others) (role model)
+Als Lehrer ist es wichtig, ein *Vorbild* für andere zu sein. (As a teacher it is important to be an example to others) (role model)
 
 Unsere professionelle Beziehung basiert auf *gegenseitigem* Respekt. (mutal)
 
@@ -40,7 +40,7 @@ Dieses Problem liegt *außerhalb* meines Erfahrungsbereiches. (This problem is b
 
 Ich ließ die Bank meine verlorene Kreditkarte *sperren*. (block, disable, lock)
 
-Banken können die Konten ihrer Kunden *sperren*. ((block, disable, lock))
+Banken können die Konten ihrer Kunden *sperren*. (block, disable, lock)
 
 Nach meinem Autounfall bezahlte *die Versicherung* die Reparaturen. (insurance)
 

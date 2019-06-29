@@ -34,7 +34,7 @@ Ich habe die grüne *Taste* gedrückt, um die Maschine zu starten. (button)
 
 Ich habe den ganzen Tag gearbeitet, deshalb bin ich jetzt wirklich *erschöpft*. (müde)
 
-Ich rannte sehr schnell und gewann das Rennen. (I ran really fast and won the race)
+Ich rannte sehr schnell und gewann *das Rennen*. (I ran really fast and won the race)
 
 He stops to take a breath. *Er bleibt stehen, um wieder Luft zu holen*
 
@@ -55,3 +55,5 @@ Die Stadt wird die Fußgängerzone *erweitern*. (The city will extend the pedest
 Die Vereinbarung *erweitert* die Kooperation zwischen den beiden Ländern. (enhance, expand)
 
 Mein Freund und ich gehen *gemeinsam* auf eine Reise. (together)
+
+Was mögen Sie an Ihrem Beruf? Er is *abwechslungsreich*. |:s| (varied)

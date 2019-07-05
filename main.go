@@ -52,6 +52,7 @@ func main() {
 	help := 0
 	mistakes := 0
 	notKnow := 0
+	nowKnowWords := ""
 	totalQuestions := len(sentences)
 	inputReader := bufio.NewReader(os.Stdin)
 	answered := false
@@ -94,6 +95,7 @@ func main() {
 				help = help + 1
 				if len(q.answer) == help {
 					notKnow++
+					nowKnowWords += q.answer + "\n"
 					fmt.Println("The answer is: ", Green(q.answer))
 					break
 				} else {
@@ -101,6 +103,7 @@ func main() {
 				}
 			} else if input == ":s" || input == ":S" {
 				notKnow++
+				nowKnowWords += q.answer + "\n"
 				fmt.Println("The answer is: ", Green(q.answer))
 				answered = false
 				break
@@ -132,6 +135,10 @@ func main() {
 		fmt.Printf("Do not know: %d\n", Red(notKnow))
 	} else {
 		fmt.Printf("Do not know: %s\n", Green("nothing"))
+	}
+
+	if nowKnowWords != "" {
+		fmt.Printf("Word(s) you didn't know:\n%s", Red(nowKnowWords))
 	}
 
 	fmt.Printf("Time spent: %v\n", Blue(time.Since(startTime)))

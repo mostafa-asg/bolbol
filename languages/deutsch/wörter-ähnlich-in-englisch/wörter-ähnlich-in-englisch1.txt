@@ -1,0 +1,11 @@
+analysis: *die Analyse*
+
+calcium: *das Kalzium*
+
+position: *die position*
+
+manager: *der Manager*
+
+mentor: *der Mentor*
+
+personnel: *das Personal*

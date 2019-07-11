@@ -9,3 +9,5 @@ manager: *der Manager*
 mentor: *der Mentor*
 
 personnel: *das Personal*
+
+detective: *der Detektiv*

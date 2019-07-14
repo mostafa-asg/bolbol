@@ -13,3 +13,7 @@ personnel: *das Personal*
 detective: *der Detektiv*
 
 fantastic: *fantastisch*
+
+efficient: *effizient*
+
+system: *das system*

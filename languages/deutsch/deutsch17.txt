@@ -52,7 +52,7 @@ Viele *Schlangen* sind giftig, aber nicht alle. (Many snakes are poisonous, but 
 
 In der *Schlange* wartete auch ein Haufen junger Leute. (There was also a bunch of young people waiting in the queue)
 
-Giftiger Abfall ist ein ernstes Problem in Industriegebieten. (Toxic waste is a serious problem in industrial areas)
+*Giftiger* Abfall ist ein ernstes Problem in Industriegebieten. (Toxic waste is a serious problem in industrial areas)
 
 Die Leute *stellten* *sich* für Konzertkarten *an*. (The people queued for concert tickets)
 

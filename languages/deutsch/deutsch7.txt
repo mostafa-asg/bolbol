@@ -2,7 +2,7 @@ Thomas hat gesagt, dass er *Beziehungsprobleme* hat. Wirklich? Mir hat er was ga
 
 Meine Entscheidung *beruht auf* vielen unterschiedlichen Faktoren. (depend on)
 
-Die guten Beziehungen zwischen den Staaten *beruhten auf* Vertrauen. (depend on)
+Die guten Beziehungen zwischen den Staaten *beruhten auf* Vertrauen. (The good relations between the states were based on trust)
 
 Ich arbeit in einer anderen *Abteilung* als er. (department)
 
@@ -14,7 +14,7 @@ Erfolg im *Kampf* gegen Heroin und HIV. (fight)
 
 Die Ergebnisse des Studierenden waren *ausgezeichnet*. (excellent)
 
-*Die Rezension* des Buches war ausgezeichnet.
+*Die Rezension* des Buches war ausgezeichnet. (review)
 
 Die Ergebnisse sind von vielen Faktoren *abhängig*. (dependent)
 
@@ -32,7 +32,7 @@ Es kann *gefährlich* sein, in einem Fluss zu schwimmen. (risky, dangerous)
 
 *Der Missbrauch* von Alkohol kann ernste Probleme verursachen. (abuse)
 
-Die Firma *untersagt* das Rauchen im gesamten Gebäude. (prohibit)
+Die Firma *untersagt* das Rauchen im gesamten Gebäude. |:s| (prohibit)
 
 Dies lag unter anderem daran, dass Drogen *heimlich* und unter unhygienischen Bedingungen konsumiert wurden. (secret)
 

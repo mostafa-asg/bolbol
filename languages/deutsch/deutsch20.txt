@@ -2,11 +2,11 @@ Der Käse hatte einen *entsetzlichen* Geruch. |:s| (The cheese had an awful smel
 
 *Solche* schönen Gemälde kosten viel Geld. (Such beautiful paintings cost a lot of money)
 
-Wasser ist eine *notwendige* Ressource für die meisten Lebewesen.
+Wasser ist eine *notwendige* Ressource für die meisten Lebewesen. (necessary)
 
 Sie erwarb ein Haus, um ihr Geld *anzulegen*. (She purchased a house to invest her money)
 
-Er will Möbel für sein neues Büro *anschaffen*. |:s| (Er will Möbel für sein neues Büro anschaffen)
+Er will Möbel für sein neues Büro *anschaffen*. |:s| (He wants to buy furniture for his new office)
 
 Der Tisch ist alt, aber in gutem *Zustand*. |:s| (The table is old but it is in good condition)
 
@@ -14,4 +14,4 @@ Wir garantieren eine schnelle und *kostengünstige* Lieferung. (We guarantee fas
 
 Ein kleines Auto ist *kostengünstiger*. (cost-effctive, economical)
 
-Der Patient sprach gut auf *die Behandlung* an. (The patient responded well to the treatment)
+Der Patient sprach gut auf *die Behandlung* an. (The patient responded wel to the treatment)

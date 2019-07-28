@@ -17,3 +17,9 @@ fantastic: *fantastisch*
 efficient: *effizient*
 
 system: *das system*
+
+season: *die Saison*
+
+principle: *das Prinzip*
+
+reduce: *reduzieren*

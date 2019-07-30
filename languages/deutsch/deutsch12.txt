@@ -48,9 +48,9 @@ Die Besprechung begann mit einer *Zusammenfassung* der aktuellen Ereignisse. (Th
 
 Die Politikerin hatte nichts zu *verbergen*. (hide, conceal)
 
-Er *unterzeichnete* das Versicherungsformular. (He signed the insurance form)
+Er *unterzeichnete* das Versicherungsformular. |:s| (He signed the insurance form)
 
-Mehrere Staaten haben das Abkommen *unterzeichnet*.
+Mehrere Staaten haben das Abkommen *unterzeichnet*. (sign)
 
 Bewerber müssen bestimmte *Anforderungen* erfüllen. (Applicants must meet certain requirements)
 

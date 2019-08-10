@@ -10,7 +10,7 @@ Man braucht eine *Angel*, um Fische zu angeln. (You need a fishing rod to catch 
 
 Als Nachspeise aßen sie *geschmorte* Pilze. (braise)
 
-blueberry? *die blaubeere*
+blueberry? *die Blaubeere*
 
 Ich habe meinen Einkaufswagen mit *Zwiebeln* und Kartoffeln beladen. (I loaded my shopping cart with onions and potatoes)
 
@@ -40,6 +40,6 @@ Ich lebe in einem *Vorort* von New York. (suburb)
 
 Nach unserem Picknick warfen wir den Müll in den *Mülleimer*. (bin)
 
-Das Geschäft verkauft Uhren und Schmuck. (The store sells watches and jewelry)
+Das Geschäft verkauft Uhren und *Schmuck*. (The store sells watches and jewelry)
 
 Ich habe ihn erst *kürzlich* in der Stadt getroffen. (I met him just recently in town)

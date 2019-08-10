@@ -46,7 +46,7 @@ Die technische *Anleitung* enthält komplizierte Anweisungen. |:s| (The technica
 
 Mein Freund *führt* ein erfolgreiches Geschäft. |:s| (My friend runs a successful business)
 
-Meine Großmutter hat ihr ganzes Leben Tagebuch geführt. (My grandmother kept a diary all her life)
+Meine Großmutter hat ihr ganzes Leben Tagebuch *geführt*. (My grandmother kept a diary all her life)
 
 Eine *ausgewogene* Ernährung sorgt für gesundes Wachstum. (A balanced diet ensures healthy growth)
 
@@ -55,3 +55,5 @@ Es gelang ihm schnell, mit der neuen Situation *zurechtzukommen*.
 Der Gastgeber *bot* den Gästen etwas zu trinken und zu essen *an*. (The host offered the guests food and drink)
 
 Meine Eltern *streiten* sich nie in meiner Gegenwart. (My parents never argue in front of me)
+
+Heiße Luft *steigt auf* und kalte Luft sinkt. |:s| (Hot air rises and cold air descends)

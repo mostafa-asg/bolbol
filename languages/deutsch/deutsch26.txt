@@ -14,7 +14,7 @@ Die Leiterin *hielt* eine Rede. (gave)
 
 Ich hörte ein *merkwürdiges* Geräusch und öffnete vorsichtig die Tür. (I heard a strange noise and opened the door with caution)
 
-Wir fanden es merkwürdig, dass er eine Regenjacke in *die Wüste* mitnahm.
+Wir fanden es merkwürdig, dass er eine Regenjacke in *die Wüste* mitnahm. (desert)
 
 Ich erklärte das Thema in ein paar *knappen* Worten. (I explained the topic in a few short words)
 

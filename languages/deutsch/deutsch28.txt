@@ -30,9 +30,9 @@ Seine Stirn war von der Anstrengung mit *Schweiß* bedeckt. (His brow was covere
 
 *Falls* es morgen nicht regnet, werden wir spazieren gehen. |:s| (if)
 
-Falls Sie das Essen *bereits* beendet haben, legen Sie die Serviette neben den Teller.
+Falls Sie das Essen *bereits* beendet haben, legen Sie die Serviette neben den Teller. |:s| (already)
 
-Das Abendessen besteht aus fünf Gängen. (The dinner consists of five courses)
+Das Abendessen besteht aus fünf *Gängen*. (The dinner consists of five courses)
 
 Die Preise werden in absteigender *Reihenfolge* angezeigt. (The prices are displayed in descending order)
 

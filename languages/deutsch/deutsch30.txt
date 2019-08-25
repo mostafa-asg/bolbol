@@ -6,7 +6,7 @@ Hunde und Katzen fressen aus einem *Napf*.
 
 Ein guter Projektmanager *berücksichtigt* alle Faktoren. 
 
-Bei meiner Entscheidung berücksichtige ich alle Faktoren.
+Bei meiner Entscheidung *berücksichtige* ich alle Faktoren. (take into account)
 
 Er ist so eine *lustige* Person, er erzählt immer Witze. |:s| (He is such a fun person, he always tells jokes)
 
@@ -21,3 +21,40 @@ Die Zahl der Raucher in der Gegend ist stark *zurückgegangen*. (The number of s
 Ich musste *zurückgehen*, um den verlorenen Handschuh zu finden. (I had to go back to find the lost glove)
 
 Ich verstehe das nicht. Könntest du mich *aufklären*? (enlighten)
+
+Ich habe keine Lust, *den Herd* sauber zu machen.
+
+Eine Orange muss man *schälen*, bevor man sie isst. (peel)
+
+Ich habe in der Küche Kartoffeln *geschält*, als er anrief. (peel)
+
+Ich schälte *Möhren* für den Salat. (I peeled carrots for the salad)
+
+- Kann ich Ihnen helfen?
+- Ja, gern. Ich möchte mir Joggingschuhe *anschaffen*. (kaufen)
+
+Bitte beachten Sie *folgende* Hinweise. (following)
+
+Die beiden Unternehmen haben unterschiedliche *Richtlinien* zum Datenschutz. (The two companies have different policies on data protection)
+
+Ich las die *Richtlinien* meiner neuen Firma. (I read the guidelines of my new company)
+
+Die Richtlinien *gelten* für alle Studenten. (The policies apply to all students)
+
+Obwohl die Theorie schon 50 Jahre alt ist, *gilt* sie noch immer. (Although the theory is already 50 years old, it still holds true) (apply)
+
+Ich werde eine Kopie des Berichts an die E-Mail *anhängen*. (I will attach a copy of the report to the email)
+
+Die Gäste *betraten* das Hotel. (The guests entered the hotel)
+
+Man darf die Skulpturen im Museum nicht *anfassen*. (You are not allowed to touch the sculptures in the museum)
+
+Am Ende meiner Straße war eine *Absperrung*, also musste ich eine andere Strecke fahren. (There was a barrier at the end of my road, so I had to take a different route)
+
+Kindern unter 12 Jahren ist der Besuch im Zoo nur zusammen mit Erwachsenen *gestattet*. (permitted)
+
+Rauchen ist im Flugzeug nicht *gestattet*. (permitted)
+
+Machen wir *Feierabend* für heute! (Let's call it a day)
+
+Kinder haben jetzt viel mehr *Freiheit* als früher. (freedom)

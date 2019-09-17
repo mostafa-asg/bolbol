@@ -17,3 +17,7 @@
 *lassen* *lässt* *ließ* *hat gelassen*
 
 *wissen* *weiß* *wusste* *hat gewusst*
+
+*streiten* *streitet* *stritt* *hat gestritten*
+
+*schicken* *schickt* *schickte* *hat geschickt*

@@ -32,4 +32,10 @@ Die Installation wurde aufgrund eines technischen Fehlers *abgebrochen*. (The in
 
 Der Kuchen besteht aus *abwechselnden* Schichten aus Sahne und Früchten. (The cake consists of alternate layers of cream and fruit)
 
-Er *leidet* unter Knieschmerzen. (He is suffering from knee pain)
+Er *leidet* an Knieschmerzen. (He is suffering from knee pain)
+
+Wir sind ein international *ausgerichtetes* Unternehmen. (We are an internationally oriented company)
+
+Er ist ein sehr *verantwortungsbewusster* Vater. (He is a very responsible father)
+
+Sie musste viele Jahre üben, um die Violine zu *beherrschen*. (It took her years of practice to master the violin)

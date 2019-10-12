@@ -21,3 +21,7 @@
 *streiten* *streitet* *stritt* *hat gestritten*
 
 *schicken* *schickt* *schickte* *hat geschickt*
+
+*brechen* *bricht* *brach* *hat gebrochen*
+
+*erfahren* *erfährt* *erfuhr* *hat erfahren*

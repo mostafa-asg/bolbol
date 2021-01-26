@@ -52,7 +52,7 @@ go build
 ```
 ./bolbol <YOUR_TEXT_FILE_PATH>
 ```
-## funktionality
+## functionality
 * If you want help, and want to know the first letter (and more), type **:h**
 * If you want to see the answer type **:s**
 
